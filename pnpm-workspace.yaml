@@ -1,2 +1,6 @@
+packages:
+  - '.'
+  - 'themes/*'
+
 allowBuilds:
   hexo-util: true
