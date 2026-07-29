@@ -1,0 +1,227 @@
+# ---------------------------------------------------------------
+# NexT Theme Configuration
+# ---------------------------------------------------------------
+
+# ---------------------------------------------------------------
+# Scheme Settings
+# ---------------------------------------------------------------
+
+# Muse 方案 - 简约清爽风格
+scheme: Muse
+
+# 关闭暗黑模式，使用浅色主题
+darkmode: false
+
+# ---------------------------------------------------------------
+# Site Information Settings
+# ---------------------------------------------------------------
+
+# 网站图标
+favicon:
+  small: /images/favicon-16x16-next.png
+  medium: /images/favicon-32x32-next.png
+
+# 创作共用协议
+creative_commons:
+  license: by-nc-sa
+  size: small
+  sidebar: true
+  post: true
+  language: deed.zh-hans
+
+# ---------------------------------------------------------------
+# Menu Settings
+# ---------------------------------------------------------------
+
+menu:
+  首页: / || fa fa-home
+  归档: /archives/ || fa fa-archive
+  分类: /categories/ || fa fa-th
+  标签: /tags/ || fa fa-tags
+  关于: /about/ || fa fa-user
+
+# ---------------------------------------------------------------
+# Social Links Settings
+# ---------------------------------------------------------------
+
+social:
+  GitHub: https://github.com/CY-OPSS || fab fa-github
+  E-Mail: mailto:your-email@example.com || fa fa-envelope
+  # 微信: /images/wechat-qr.png || fab fa-weixin
+
+social_icons:
+  enable: true
+  icons_only: false
+  transition: false
+
+# ---------------------------------------------------------------
+# Sidebar Settings
+# ---------------------------------------------------------------
+
+sidebar:
+  position: left
+  width: 320
+  display: post
+  offset: 12
+  b2t: false
+  scrollpercent: false
+  onmobile: false
+
+# 侧边栏头像
+avatar:
+  url: /images/avatar.gif
+  rounded: true
+  rotated: false
+
+# ---------------------------------------------------------------
+# Post Settings
+# ---------------------------------------------------------------
+
+# 文章摘要
+auto_excerpt:
+  enable: true
+  length: 150
+
+# 文章字数统计
+post_wordcount:
+  wordcount: true
+  min2read: true
+  totalread: false
+
+# 阅读进度
+reading_progress:
+  enable: true
+  position: top
+  color: "#37c6c0"
+  height: 3px
+
+# ---------------------------------------------------------------
+# Misc Theme Settings
+# ---------------------------------------------------------------
+
+# 代码块
+codeblock:
+  # Manual code highlight (syntax highlighter plugin is required)
+  highlight_theme: default
+  # Add copy button on codeblock
+  copy_button:
+    enable: true
+    style: flat
+
+# 返回顶部按钮
+back2top:
+  enable: true
+  sidebar: false
+  scrollpercent: true
+
+# ---------------------------------------------------------------
+# Font Settings
+# ---------------------------------------------------------------
+
+font:
+  enable: true
+  host: https://fonts.googleapis.com
+  global:
+    external: true
+    family: Noto Sans SC
+    size: 1
+  title:
+    external: true
+    family:
+    size:
+  headings:
+    external: true
+    family:
+    size:
+  posts:
+    external: true
+    family:
+    size:
+  codes:
+    external: true
+    family:
+    size: 0.875
+
+# ---------------------------------------------------------------
+# SEO Settings
+# ---------------------------------------------------------------
+
+# 文章永久链接
+permalink: /:year/:month/:day/:title/
+
+# ---------------------------------------------------------------
+# Tags Settings
+# ---------------------------------------------------------------
+
+# 标签云
+tagcloud:
+  min: 12
+  max: 30
+  amount: 200
+  orderby: name
+  order: 1
+
+# ---------------------------------------------------------------
+# Related Popular Posts
+# ---------------------------------------------------------------
+
+related_posts:
+  enable: true
+  icon: fa fa-signs-post
+
+# ---------------------------------------------------------------
+# Chat Services
+# ---------------------------------------------------------------
+
+# Twikoo 评论系统
+twikoo:
+  enable: true
+  envId: # 你的 Twikoo 环境 ID
+  region:
+  visitor: true
+  option:
+
+# ---------------------------------------------------------------
+# Search
+# ---------------------------------------------------------------
+
+# 本地搜索
+local_search:
+  enable: true
+  # If auto, trigger search by changing input.
+  # If manual, trigger search by pressing enter key or search button.
+  trigger: auto
+  # Show top n results per article, show all results by setting to -1
+  top_n_per_article: 1
+  # Unescape html strings to the readable one.
+  unescape: false
+  # Preload the search data when the page loads.
+  preload: false
+
+# ---------------------------------------------------------------
+# Tags
+# ---------------------------------------------------------------
+
+# Mermaid 图表
+mermaid:
+  enable: false
+
+# PDF 查看器
+pdf:
+  enable: false
+
+# ---------------------------------------------------------------
+# Animation
+# ---------------------------------------------------------------
+
+motion:
+  enable: true
+  async: false
+  transition:
+    menu_item: fadeInDown
+    post_block: fadeIn
+    post_header: fadeInDown
+    post_body: fadeInDown
+    coll_header: fadeInLeft
+    # Sidebar
+    sidebar: fadeInUp
