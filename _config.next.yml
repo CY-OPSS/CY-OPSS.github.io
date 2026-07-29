@@ -177,7 +177,7 @@ related_posts:
 # Twikoo 评论系统
 twikoo:
   enable: true
-  envId: twikoo-one-beta-90.vercel.app
+  envId: twikoo-oqh47cibr-facwink.vercel.app
   region:
   visitor: true
   option:
