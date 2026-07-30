@@ -1,0 +1,14 @@
+{%- if page.comments %}
+<div id="tcomment"></div>
+<script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    twikoo.init({
+      envId: '{{ theme.twikoo.envId }}',
+      el: '#tcomment',
+      region: '{{ theme.twikoo.region }}',
+      lang: '{{ theme.twikoo.lang }}',
+    });
+  });
+</script>
+{%- endif %}
